@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_admin"
+            android:icon="@drawable/contacts"
+            android:title="Admin" />
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@drawable/user"
+            android:title="User" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_facility"
+            android:icon="@drawable/diamond"
+            android:title="Facility" />
+       <!-- <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/acc"
+            android:title="Profile" />-->
+
+        <item
+            android:id="@+id/nav_salary"
+            android:icon="@drawable/salary"
+            android:title=" Salary Detail" />
+
+        <item
+            android:id="@+id/nav_room"
+            android:icon="@drawable/roomicon"
+            android:title="Room Detail" />
+
+        <!--<item-->
+            <!--android:id="@+id/nav_meal"-->
+            <!--android:icon="@drawable/food"-->
+            <!--android:title="Meal Timing" />-->
+
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/food"
+            android:title="Menu Category" />
+
+
+
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+           <!-- <item
+                android:id="@+id/nav_pdf"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Pdf" />-->
+
+            <item
+                android:id="@+id/nav_lfp"
+                android:icon="@drawable/thumb"
+                android:title="Like Fb Page" />
+        </menu>
+    </item>
+
+</menu>

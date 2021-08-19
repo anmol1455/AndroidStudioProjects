@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">List</string>
+
+    <string-array name="array_tech">
+
+    <item>java tech 1</item>
+    <item>java tech 2</item>
+    <item>java tech 3</item>
+    <item>java tech 4</item>
+    <item>java tech 5</item>
+    <item>java tech 6</item>
+    <item>java tech 7</item>
+    <item>java tech 8</item>
+    <item>java tech 9</item>
+    <item>java tech 10</item>
+
+    </string-array>
+</resources>
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="playMusic"
+        android:text="Play"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/btnpause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="paueMusic"
+        android:text="Pause"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/btnstop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="stopMusic"
+        android:text="Stop"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/btnvibrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Vibrate"
+        android:text="Vibrate"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="next"
+        android:text="Next"
+        android:textColor="@color/colorPrimaryDark" />
+
+
+</LinearLayout>

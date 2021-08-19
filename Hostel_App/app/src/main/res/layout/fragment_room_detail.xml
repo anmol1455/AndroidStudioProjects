@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/skyuuuu"
+    android:layout_height="match_parent"
+    tools:context=".roomDetail">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<TextView
+    android:id="@+id/tv1"
+    android:text="Room Detail"
+    android:textSize="28sp"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:layout_marginLeft="110dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/one"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/tv1"
+            android:background="@drawable/singlebedc"
+            android:layout_width="180dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:layout_marginTop="28dp"
+            android:id="@+id/tv2"
+            android:textStyle="bold"
+            android:text="Single Seater    \Charge Rs./- 5000"
+            android:textSize="22sp"
+            android:layout_below="@id/tv1"
+            android:layout_toRightOf="@id/one"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <ImageView
+            android:id="@+id/two"
+            android:layout_marginTop="60dp"
+            android:layout_below="@id/tv2"
+            android:background="@drawable/doublebedb"
+            android:layout_width="180dp"
+            android:layout_height="100dp" />
+
+
+        <TextView
+            android:layout_marginTop="60dp"
+            android:id="@+id/tv3"
+            android:textStyle="bold"
+            android:text="Double  Seater     \Charge Rs./- 4500"
+            android:textSize="22sp"
+            android:layout_below="@id/tv2"
+            android:layout_toRightOf="@id/two"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/triple"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/two"
+            android:background="@drawable/threeseaterbeda"
+            android:layout_width="180dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:layout_marginTop="60dp"
+            android:id="@+id/tv4"
+            android:textStyle="bold"
+            android:text="Triple Seater   \Charge Rs. /- 4200"
+            android:textSize="22sp"
+            android:layout_below="@id/tv3"
+            android:layout_toRightOf="@id/triple"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/four"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/triple"
+            android:background="@drawable/fourbed"
+            android:layout_width="180dp"
+            android:layout_height="100dp" />
+
+
+        <TextView
+            android:layout_marginTop="60dp"
+            android:id="@+id/tv5"
+            android:textStyle="bold"
+            android:text="Four Seater     \Charge Rs. /- 4000"
+            android:textSize="22sp"
+            android:layout_below="@id/tv4"
+            android:layout_toRightOf="@id/four"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_below="@id/four"
+            android:layout_marginTop="15dp"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="80dp"
+            android:text="Additional Facility  "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/cooler"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/tv6"
+            android:background="@drawable/cooler"
+            android:layout_width="180dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:id="@+id/tv7"
+            android:textStyle="bold"
+            android:text="Cooler      \Charge Rs./- 1000"
+            android:textSize="22sp"
+            android:layout_below="@id/tv6"
+            android:layout_toRightOf="@id/cooler"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:id="@+id/ac"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/tv7"
+            android:background="@drawable/ac"
+            android:layout_width="180dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:layout_marginTop="50dp"
+            android:id="@+id/tv8"
+            android:textStyle="bold"
+            android:text="A.C      \Charge Rs./- 2000"
+            android:textSize="22sp"
+            android:layout_below="@id/tv7"
+            android:layout_toRightOf="@id/ac"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

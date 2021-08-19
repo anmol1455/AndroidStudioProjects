@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rooma"
+    tools:context="._home">
+
+  <!--  <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="@drawable/rooma" />-->
+
+    <RelativeLayout
+        android:id="@+id/ll1"
+        android:padding="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+
+        <EditText
+            android:id="@+id/ed1"
+            android:padding="10dp"
+            android:textColorHint="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"/>
+
+        <EditText
+            android:id="@+id/ed2"
+            android:layout_below="@id/ed1"
+            android:padding="10dp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:singleLine="true"/>
+
+        <Button
+            android:id="@+id/btlogin"
+            android:layout_below="@id/ed2"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorBlueM"
+            android:text="LOGIN" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:text="or"
+            android:layout_below="@id/btlogin"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:padding="7dp"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:id="@+id/btcreate"
+            android:layout_below="@id/tv1"
+            android:text="CREATE NEW ACCOUNT"
+            android:textColor="@color/colorWhite"
+            android:background="#088A08"
+            android:layout_width="match_parent"
+            android:layout_height="39dp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_below="@id/btcreate"
+            android:text="forgotten password?"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/fb"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="70dp"
+            android:layout_below="@id/tv2"
+            android:background="@drawable/circlrfb"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+
+        <ImageButton
+            android:id="@+id/google"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/tv2"
+            android:layout_toRightOf="@id/fb"
+            android:background="@drawable/circlegoogle"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <ImageButton
+            android:id="@+id/insta"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/tv2"
+            android:layout_toRightOf="@id/google"
+            android:background="@drawable/circleinsta"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

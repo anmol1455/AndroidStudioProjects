@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnred"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Red"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/btngreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Green"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/btnblue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="blue"
+        android:textColor="@color/colorPrimary" />
+    <Button
+        android:id="@+id/anim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animal"
+        android:textColor="@color/colorPrimary"/>
+    <Button
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flower"
+        android:textColor="@color/colorPrimaryDark"/>
+    <Button
+        android:id="@+id/na"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nature"
+        android:textColor="@color/colorAccent"/>
+
+
+</LinearLayout>

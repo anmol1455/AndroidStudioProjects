@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abb3"
+    android:padding="16dp"
+    tools:context=".ContactDetails">
+
+    <TextView
+        android:id="@+id/tv_letter"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/black"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="100dp" />
+
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_below="@+id/tv_letter"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_user_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_user_name"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_user_email"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_user_mobile"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_user_dob"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_user_email"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:textSize="16sp" />
+
+</RelativeLayout>

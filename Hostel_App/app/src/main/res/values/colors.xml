@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTrans">#0000FFFF</color>
+    <color name="colorBlue">#4169E1</color>
+    <color name="colorBlueM">#0000CD</color>
+    <color name="Blue">#0000FF</color>
+    <color name="colorGreen">#008000</color>
+    <color name="colorGreenD">#006400</color>
+    <color name="colorGrey">#778899</color>
+
+    <!-- Color of Letters -->
+    <color name="aplha_A">#B71C1C</color>
+    <color name="aplha_B">#880E4F</color>
+    <color name="aplha_C">#4A148C</color>
+    <color name="aplha_D">#311B92</color>
+    <color name="aplha_E">#0D47A1</color>
+    <color name="aplha_F">#1A237E</color>
+    <color name="aplha_G">#006064</color>
+    <color name="aplha_H">#00BFA5</color>
+    <color name="aplha_I">#01579B</color>
+    <color name="aplha_J">#004D40</color>
+    <color name="aplha_K">#33691E</color>
+    <color name="aplha_L">#827717</color>
+    <color name="aplha_M">#1B5E20</color>
+    <color name="aplha_N">#FFD600</color>
+    <color name="aplha_O">#FFAB00</color>
+    <color name="aplha_P">#FF6D00</color>
+    <color name="aplha_Q">#BF360C</color>
+    <color name="aplha_R">#3E2723</color>
+    <color name="aplha_S">#263238</color>
+    <color name="aplha_T">#424242</color>
+    <color name="aplha_U">#3949AB</color>
+    <color name="aplha_V">#00838F</color>
+    <color name="aplha_W">#CDDC39</color>
+    <color name="aplha_X">#C2185B</color>
+    <color name="aplha_Y">#43A047</color>
+    <color name="aplha_Z">#795548</color>
+
+</resources>

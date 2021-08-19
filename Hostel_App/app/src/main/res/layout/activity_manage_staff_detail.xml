@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/roomg"
+    tools:context=".ManageStaffDetail">
+
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Search here">
+
+    </EditText>
+
+    <ImageButton
+        android:background="@drawable/add"
+        android:layout_toRightOf="@id/search"
+        android:id="@+id/bt_staff_detail"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <ListView
+        android:id="@+id/lv_Staff"
+        android:layout_below="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ListView>
+<!--
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/bt_staff_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginLeft="300dp"
+        android:layout_marginBottom="40dp"
+        android:scaleX="1"
+        android:scaleY="1"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:layout_editor_absoluteX="315dp"
+        tools:layout_editor_absoluteY="441dp" />-->
+
+</RelativeLayout>

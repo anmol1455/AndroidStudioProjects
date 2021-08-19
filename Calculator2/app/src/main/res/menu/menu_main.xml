@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.calculator.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mass"
+        android:orderInCategory="100"
+        android:title="@string/mass_converter"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/length"
+        android:orderInCategory="100"
+        android:title="@string/Length_converter"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Temperature"
+        android:orderInCategory="100"
+        android:title="@string/Temp._converter"
+        app:showAsAction="never" />
+</menu>

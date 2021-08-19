@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="mass_converter">Mass Conversion</string>
+    <string name="Length_converter">Length Converter</string>
+    <string name="Temp._converter">Temp Converter</string>
+</resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="50dp"
+    android:background="@drawable/imgb"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".CreateNewAccount">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv1"
+        android:text="Create Your Account"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:hint="first name"
+        android:inputType="text"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et2"
+        android:hint="last name"
+        android:inputType="text"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et3"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:singleLine="true"
+        android:hint="mobile number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/et4"
+        android:inputType="text"
+        android:singleLine="true"
+        android:hint="username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <EditText
+        android:id="@+id/et5"
+        android:hint="password"
+        android:layout_below="@id/et4"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/eye"
+                android:layout_marginLeft="260sp"
+                android:layout_below="@id/et4"
+                android:background="@drawable/eyeoff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et6"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:layout_below="@id/et5"
+        android:hint=" confirm password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tv_error_msg_cna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#880000"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bt_cna_signup"
+        android:layout_marginLeft="150dp"
+        android:text="Sign Up"
+        android:background="@color/colorBlueM"
+        android:textColor="@color/colorWhite"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</ScrollView>

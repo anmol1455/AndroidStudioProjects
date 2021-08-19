@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogIn">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:background="@drawable/purpleroom" />
+
+        <Button
+            android:id="@+id/b_student_detail"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/img1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/studentaa" />
+
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/b_student_detail"
+            android:layout_marginLeft="18dp"
+            android:text="Manage Student Detail"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/b_staff_detail"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/img1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/b_student_detail"
+            android:background="@drawable/staffaaaa" />
+
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/b_staff_detail"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@id/tv1"
+            android:text="Manage Staff Detail"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/b_fee_detail"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/tv2"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/feesa" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/b_fee_detail"
+            android:layout_marginLeft="18dp"
+            android:text="Manage Fees Detail"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/bt_my_profile"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/tv2"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/b_fee_detail"
+            android:background="@drawable/profilecircle" />
+
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/bt_my_profile"
+            android:layout_marginLeft="100dp"
+            android:layout_toRightOf="@id/tv3"
+            android:text="My Profile"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_below="@id/tv3"
+            android:layout_marginTop="20dp"
+            android:text="For Fees Payment : "
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_below="@id/tv5"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+           android:background="@drawable/qrcodeak"
+            android:layout_width="300dp"
+            android:layout_height="300dp" />
+
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
